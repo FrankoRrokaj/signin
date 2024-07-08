@@ -1,0 +1,44 @@
+.main{
+    background-image: url('natyra.photo.jpg');
+    background-size: cover;
+    height: 100%;
+    margin-top: -16px;
+}
+.menu{
+    background-color: green;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 40px;
+    padding-left: 0px;
+}
+.menu ul li {
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+
+}
+.sidebar{
+    position: fixed;
+    margin-left: -40px;
+
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li a img{
+    width: 50px;
+    transition: 2s;
+    
+}
+.sidebar ul li a img:hover{
+    width: 70px;
+}
+.home{
+    background-color: red;
+    padding-left: 0px;
+}
+
